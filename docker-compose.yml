@@ -1,0 +1,6 @@
+app:
+  build: .
+  container_name: app
+  hostname: master
+  ports:
+    - "3000:3000"
